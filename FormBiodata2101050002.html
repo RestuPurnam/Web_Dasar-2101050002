@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <TItle>FORM BIODATA</TItle>
+    </head>
+    <body>
+        <form action="" method="post">
+            <h1 style="font-size: 15px;" align="center">Form Biodata</h1>
+            <table>
+                <tr>
+                    <td width="300px">NIM</td><td width="15px">:</td>
+                    <td><input type="text" name="txtnim"></td>
+                </tr>
+                <tr>
+                    <td>NAMA</td><td>:</td>
+                    <td><input type="text" name="txtnama" ></td>
+                </tr>
+                <tr>
+                    <td>JENIS KELAMIN</td><td>:</td>
+                    <td><input type="radio" name="rbjeniskelamin" value="p">Pria
+                        <input type="radio" name="rbjeniskelamin" value="w">Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>JURUSAN</td><td>:</td>
+                    <td><select name="lstJurusan">Pilihan 
+                    <option value="">Pilih...</option>
+                    <option value="D3RPL">D3RPL</option>
+                    <option value="S1TI">S1TI</option>
+                    <Option value="S1SI">S1SI</Option></td></select>
+                </tr>
+                <tr>
+                    <td>HOBBY</td><td>:</td>
+                    <td><input type="checkbox" name="chkhobby[]" value="Komputer">Komputer
+                        <input type="checkbox" name="chkhobby[]" value="Musik">Musik
+                        <input type="checkbox" name="chkhobby[]" value="Olahraga">Olahraga
+                        <input type="checkbox" name="chkhobby[]" value="travelling">travelling
+                    </td>
+                </tr>
+                <tr>
+                    <td>CATATAN</td><td>:</td>                    
+                    <td><textarea name="txtcatatan" cols="50" rows="5"></textarea></td>                    
+                </tr>
+                <tr>
+                    <td>FOTO</td><td>:</td>
+                    <td><input type="file"> </td>
+                </tr>
+                <tr>
+                    <td>EMAIL</td><td>:</td>
+                    <td><input type="text" name="txtEmail"></td>
+                </tr>
+                <tr>
+                    <td>SANDI LOGIN</td><td>:</td>
+                    <td><input type="password" name="txtsandi" size="15" maxlength="12"></td>
+                </tr>
+                <tr>
+                    <td>ULANGI SANDI LOGIN</td><td>:</td>
+                    <td> <input type="password" name="txtsandi" size="15" maxlength="12"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" name="btnsimpan" value="Simpan">
+                        <input type="Reset" name="btnreset" value="Batal">
+                        <button type="button" name="btnpringatan"> Peringatan</button></td>
+                </tr>
+            </table>
+
+</form>
+    </body>
+</html>
